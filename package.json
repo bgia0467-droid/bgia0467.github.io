@@ -1,0 +1,10 @@
+{
+  "name": "mobi-plus-demo",
+  "private": true,
+  "scripts": {
+    "start": "json-server --watch db.json --host 127.0.0.1 --port 3000"
+  },
+  "devDependencies": {
+    "json-server": "0.17.4"
+  }
+}

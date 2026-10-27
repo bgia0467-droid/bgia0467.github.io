@@ -1,0 +1,130 @@
+{
+  "users": [
+    {
+      "id": "user-demo",
+      "name": "Nguyễn Minh Anh",
+      "email": "demo@example.com",
+      "password": "demo123"
+    },
+    {
+      "name": "qqqq",
+      "email": "qqqq@gmail.com",
+      "password": "123123",
+      "id": "KYRxP4y"
+    }
+  ],
+  "carts": [
+    {
+      "userEmail": "bgia0467@gmail.com",
+      "items": [],
+      "updatedAt": "2026-10-22T03:45:29.951Z",
+      "id": 1
+    },
+    {
+      "userEmail": "qqqq@gmail.com",
+      "items": [],
+      "updatedAt": "2026-10-22T04:11:30.583Z",
+      "id": 2
+    }
+  ],
+  "orders": [
+    {
+      "id": "MP34017918",
+      "createdAt": "2026-10-22T01:53:37.918Z",
+      "customer": {
+        "name": "Gbao",
+        "email": "bgia0467@gmail.com",
+        "phone": "0905867710",
+        "address": "354 lê đại hành, Quận Cẩm Lệ, Đà Nẵng",
+        "note": ""
+      },
+      "userEmail": "bgia0467@gmail.com",
+      "items": [
+        {
+          "id": "s25-ultra",
+          "name": "Samsung Galaxy S25 Ultra",
+          "price": 31990000,
+          "quantity": 1
+        },
+        {
+          "id": "pixel-9-pro",
+          "name": "Google Pixel 9 Pro",
+          "price": 23990000,
+          "quantity": 1
+        }
+      ],
+      "total": 55980000,
+      "payment": "cod",
+      "status": "Đang giao"
+    },
+    {
+      "id": "MP34739418",
+      "createdAt": "2026-10-22T02:05:39.418Z",
+      "customer": {
+        "name": "Gbao",
+        "email": "bgia0467@gmail.com",
+        "phone": "0905867710",
+        "address": "354 lê đại hành, Quận Cẩm Lệ, Đà Nẵng",
+        "note": ""
+      },
+      "userEmail": "bgia0467@gmail.com",
+      "items": [
+        {
+          "id": "iphone-15",
+          "name": "iPhone 15",
+          "price": 16990000,
+          "quantity": 1
+        }
+      ],
+      "total": 16990000,
+      "payment": "cod",
+      "status": "Hoàn thành"
+    },
+    {
+      "id": "MP40729566",
+      "createdAt": "2026-10-22T03:45:29.566Z",
+      "customer": {
+        "name": "Gbao",
+        "email": "bgia0467@gmail.com",
+        "phone": "0905867710",
+        "address": "354 lê đại hành, Quận Cẩm Lệ, Đà Nẵng",
+        "note": ""
+      },
+      "userEmail": "bgia0467@gmail.com",
+      "items": [
+        {
+          "id": "s25-ultra",
+          "name": "Samsung Galaxy S25 Ultra",
+          "price": 31990000,
+          "quantity": 1
+        }
+      ],
+      "total": 31990000,
+      "payment": "bank",
+      "status": "Hoàn thành"
+    },
+    {
+      "id": "MP42290215",
+      "createdAt": "2026-10-22T04:11:30.215Z",
+      "customer": {
+        "name": "qqqqq",
+        "email": "qqqq@gmail.com",
+        "phone": "0905123123",
+        "address": "qqqq, qqqq, qqqqq",
+        "note": ""
+      },
+      "userEmail": "qqqq@gmail.com",
+      "items": [
+        {
+          "id": "s25-ultra",
+          "name": "Samsung Galaxy S25 Ultra",
+          "price": 31990000,
+          "quantity": 2
+        }
+      ],
+      "total": 63980000,
+      "payment": "cod",
+      "status": "Chờ xác nhận"
+    }
+  ]
+}
